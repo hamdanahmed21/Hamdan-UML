@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 public class CampusRepository <T extends Serializable> implements Serializable {
-    
     // FIELDS
     protected ArrayList<T> items;
 
